@@ -1,6 +1,6 @@
 {
   "name": "ethereum-services",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Sample application for working with smart contracts via web services.",
   "main": "src/index.js",
   "scripts": {
@@ -37,11 +37,17 @@
   },
   "devDependencies": {
     "bootstrap": "^4.0.0-beta.3",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.15.0",
     "vue": "^2.5.13",
     "vue-loader": "^13.7.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "webpack": "^3.10.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
