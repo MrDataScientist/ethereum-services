@@ -1,0 +1,47 @@
+{
+  "name": "ethereum-services",
+  "version": "1.0.0",
+  "description": "Sample application for working with smart contracts via web services.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "blockchain": "ganache-cli",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessie-codes/ethereum-services.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smart",
+    "contract",
+    "koa",
+    "prototype"
+  ],
+  "author": "Jessie Barnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessie-codes/ethereum-services/issues"
+  },
+  "homepage": "https://github.com/jessie-codes/ethereum-services#readme",
+  "engines": {
+    "node": "<8.9.0"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "koa": "^2.4.1",
+    "solc": "^0.4.19",
+    "web3": "^0.20.3"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "eslint": "^4.15.0",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.7.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "webpack": "^3.10.0"
+  }
+}
