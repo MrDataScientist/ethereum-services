@@ -48,7 +48,7 @@
     "vue-loader": "^13.7.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
-    "webpack": "^3.10.0"
+    "webpack": "^4.0.0"
   },
   "config": {
     "commitizen": {
